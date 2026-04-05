@@ -1,0 +1,10 @@
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (1, 'Tamqrah', 'Culham', 'tculham0@europa.eu', 'United States', 'radiologist');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (2, 'Corrinne', 'Ogley', 'cogley1@paypal.com', 'France', 'pharmacist');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (3, 'Willie', 'McElree', 'wmcelree2@stumbleupon.com', 'France', 'pharmacist');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (4, 'Odette', 'Kemmis', 'okemmis3@uiuc.edu', 'France', 'nurse');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (5, 'Schuyler', 'Goldberg', 'sgoldberg4@oakley.com', 'United States', 'doctor');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (6, 'Randie', 'Ready', 'rready5@cnn.com', 'France', 'surgeon');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (7, 'Rafaellle', 'Heskin', 'rheskin6@cisco.com', 'United States', 'radiologist');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (8, 'Herculie', 'Fessler', 'hfessler7@dot.gov', 'France', 'radiologist');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (9, 'Mariejeanne', 'Yearns', 'myearns8@smugmug.com', 'United States', 'surgeon');
+insert into MOCK_DATA (candidateID, first_name, last_name, email, nationality, skill) values (10, 'Gusti', 'Rennocks', 'grennocks9@google.de', 'France', 'pharmacist');

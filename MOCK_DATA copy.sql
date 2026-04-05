@@ -1,0 +1,10 @@
+insert into MOCK_DATA (skill, can_drive, second_language) values ('radiologist', false, 'Tagalog');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('nurse', false, 'Spanish');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('paramedic', false, 'Ido');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('paramedic', false, 'Chuvash');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('radiologist', false, 'Korean');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('surgeon', true, 'Latin');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('nurse', false, 'Interlingua (International Auxiliary Language Association)');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('paramedic', false, 'Amharic');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('paramedic', true, 'Kalaallisut');
+insert into MOCK_DATA (skill, can_drive, second_language) values ('nurse', false, 'Icelandic');

@@ -1,0 +1,10 @@
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (9, 'WALTHALL GENERAL HOSPITAL', false, 21, 'Recruiting Manager');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (48, 'CAROLINAS MEDICAL CENTER-NORTHEAST', false, 9, 'Chemical Engineer');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (11, 'MENNONITE GENERAL HOSPITAL INC', false, 8, 'Librarian');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (41, 'BANNER -- UNIVERSITY MEDICAL CENTER PHX CAMPUS LIVER DISEASE SERVICES', true, 9, 'Chemical Engineer');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (88, 'GREAT RIVER MEDICAL CENTER', true, 21, 'Sales Associate');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (34, 'KENTUCKY HOSPITAL, LLC', false, 25, 'VP Quality Control');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (49, 'THE METHODIST HOSPITALS,INC. - PROGRESSIVE CARE UNIT', true, 9, 'Recruiter');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (35, 'NAVAL HOSPITAL YOKOSUKA', false, 16, 'GIS Technical Architect');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (3, 'UCSF MEDICAL CENTER', false, 24, 'Account Coordinator');
+insert into MOCK_DATA (candidateID, previous_employer , still_employed, years_experience, title_held) values (38, 'SWEET MEDICAL CENTER CORP', false, 1, 'Research Nurse');

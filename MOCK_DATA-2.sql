@@ -1,0 +1,10 @@
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (47, false, false);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (75, true, false);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (79, true, false);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (84, true, true);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (37, true, true);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (78, false, true);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (81, true, false);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (56, false, true);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (25, false, false);
+insert into MOCK_DATA (candidateID, has_passport, has_documents) values (35, true, false);
