@@ -13,14 +13,14 @@ PRIMARY KEY (candidateID)
 
 INSERT into Candidate(candidateID, first_name, last_name, email, nationality, skill) values (1123, 'Tamqrah', 'Culham', 'tculham0@europa.eu', 'United States', 'Radiologist');
 INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (2342, 'Corrinne', 'Ogley', 'cogley1@paypal.com', 'France', 'Pharmacist');
-INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (3543, 'Willie', 'McElree', 'wmcelree2@stumbleupon.com', 'France', 'Pharmacist');
+INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (3543, 'Willie', 'McElree', 'wmcelree2@stumbleupon.com', 'Ireland', 'Pharmacist');
 INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (4532, 'Odette', 'Kemmis', 'okemmis3@uiuc.edu', 'France', 'Nurse');
-INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (5424, 'Schuyler', 'Goldberg', 'sgoldberg4@oakley.com', 'United States', 'Doctor');
-INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (6113, 'Randie', 'Ready', 'rready5@cnn.com', 'France', 'Surgeon');
+INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (5424, 'Schuyler', 'Goldberg', 'sgoldberg4@oakley.com', 'Germany', 'Doctor');
+INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (6113, 'Randie', 'Ready', 'rready5@cnn.com', 'United Kingdom', 'Surgeon');
 INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (7968, 'Rafaellle', 'Heskin', 'rheskin6@cisco.com', 'United States', 'Radiologist');
 INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (8946, 'Herculie', 'Fessler', 'hfessler7@dot.gov', 'France', 'Radiologist');
-INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (9097, 'Mariejeanne', 'Yearns', 'myearns8@smugmug.com', 'United States', 'Surgeon');
-INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (1023, 'Gusti', 'Rennocks', 'grennocks9@google.de', 'France', 'Pharmacist');
+INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (9097, 'Mariejeanne', 'Yearns', 'myearns8@smugmug.com', 'Canada', 'Surgeon');
+INSERT into Candidate (candidateID, first_name, last_name, email, nationality, skill) values (1023, 'Gusti', 'Rennocks', 'grennocks9@google.de', 'Iceland', 'Pharmacist');
 
 CREATE TABLE Skills(
 skill VARCHAR(25),
@@ -28,16 +28,16 @@ can_drive BOOLEAN,
 second_language VARCHAR(25),
 PRIMARY KEY (skill)
 );
-INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'Tagalog');
-INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'Spanish');
-INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'Ido');
-INSERT into Skills (skill, can_drive, second_language) values ('Nurse', false, 'Chuvash');
-INSERT into Skills (skill, can_drive, second_language) values ('Doctor', false, 'Korean');
-INSERT into Skills (skill, can_drive, second_language) values ('Surgeon', true, 'Latin');
-INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'Interlingua (International Auxiliary Language Association)');
-INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'Amharic');
-INSERT into Skills (skill, can_drive, second_language) values ('Surgeon', true, 'Kalaallisut');
-INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'Icelandic');
+INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'Spanish');
+INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'English');
+INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'English');
+INSERT into Skills (skill, can_drive, second_language) values ('Nurse', false, 'French');
+INSERT into Skills (skill, can_drive, second_language) values ('Doctor', false, 'English');
+INSERT into Skills (skill, can_drive, second_language) values ('Surgeon', true, 'French');
+INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'Spanish');
+INSERT into Skills (skill, can_drive, second_language) values ('Radiologist', false, 'English');
+INSERT into Skills (skill, can_drive, second_language) values ('Surgeon', true, 'French');
+INSERT into Skills (skill, can_drive, second_language) values ('Pharmacist', false, 'English');
 
 CREATE TABLE Education(
 candidateID int,
