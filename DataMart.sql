@@ -72,16 +72,16 @@ INSERT INTO Candidate (candidate_key, candidateID, first_name, last_name, email,
 (10, 10, 'Gusti', 'Rennocks', 'grennocks9@google.de', 'Iceland');
 
 INSERT INTO Skill (skill_key, skill, can_drive, second_language) VALUES
-(1, 'radiologist', false, 'Spanish'),
-(2, 'pharmacist', false, 'English'),
-(3, 'nurse', false, 'French'),
-(4, 'doctor', true, 'German'),
-(5, 'surgeon', true, 'French'),
-(6, 'paramedic', true, 'Amharic'),
-(7, 'therapist', false, 'Italian'),
-(8, 'dentist', true, 'Portuguese'),
-(9, 'midwife', false, 'Arabic'),
-(10, 'lab technician', true, 'Dutch');
+(1, 'Radiologist', false, 'Spanish'),
+(2, 'Pharmacist', false, 'English'),
+(3, 'Nurse', false, 'French'),
+(4, 'Doctor', true, 'German'),
+(5, 'Surgeon', true, 'French'),
+(6, 'Paramedic', true, 'Amharic'),
+(7, 'Therapist', false, 'Italian'),
+(8, 'Dentist', true, 'Portuguese'),
+(9, 'Midwife', false, 'Arabic'),
+(10, 'Lab technician', true, 'Dutch');
 
 INSERT INTO Education (education_key, college_name, degree, results, year_grad) VALUES
 (1, 'Coastal Carolina University', 'Radiology', 'Honours', 2006),
@@ -156,8 +156,23 @@ JOIN Skill s ON r.skill_key=s.skill_key
 JOIN Education e ON r.education_key=e.education_key
 WHERE s.skill='doctor' AND e.results='masters';
 
+-- 3rd query (Tara): Identify candidates who are currently eligable to work, ordered by skill and last name --
+-- candidates must have an approved visa, valid passport, and all required documents --
 
-
-
-
+SELECT c.first_name as "First Name",
+c.last_name as "Last Name",
+s.skill as "Skill",
+v.visa_type as "Visa Type",
+v.visa_status as "Visa Status",
+d.has_passport as "Has Passport",
+d.has_documents as "Has Necessary Documents"
+FROM Recruitment r
+JOIN Candidate c On r.candidate_key=c.candidate_key
+JOIN Skill s ON r.skill_key=s.skill_key
+JOIN Visa v On r.visa_key=v.visa_key
+JOIN Documents d ON r.document_key=d.document_key
+WHERE v.visa_status='Approved'
+AND d.has_passport=TRUE
+AND d.has_documents=TRUE
+ORDER BY s.skill, c.last_name;
 
